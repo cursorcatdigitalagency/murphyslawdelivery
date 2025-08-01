@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://murphyslawdelivery.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Allow all search engines to index the site
+# Murphy's Law Delivery Service - Edmonton, Alberta courier service
+

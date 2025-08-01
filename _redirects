@@ -1,0 +1,23 @@
+# Netlify redirects for Murphy's Law Delivery Service
+
+# Redirect common variations to main domain
+http://murphyslawdelivery.netlify.app/* https://murphyslawdelivery.com/:splat 301!
+https://murphyslawdelivery.netlify.app/* https://murphyslawdelivery.com/:splat 301!
+
+# Handle SPA routing (if needed in future)
+/*    /index.html   200
+
+# Redirect old URLs (if migrating from another site)
+/home /  301
+/services /#services  301
+/contact /#contact  301
+/areas /#areas  301
+/about /#why-choose-us  301
+
+# Force HTTPS
+http://murphyslawdelivery.com/* https://murphyslawdelivery.com/:splat 301!
+
+# Handle common misspellings
+/murphys-law-delivery/* /:splat 301
+/murphy-law-delivery/* /:splat 301
+
